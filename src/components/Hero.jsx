@@ -7,8 +7,6 @@
  * Components
  */
 import { ButtonPrimary, ButtonOutline } from "./Button";
-// import myCV from './files/Resume_Tan Li Lun_Front_End.pdf';
-
 import React from 'react'
 
 const Hero = () => {
@@ -45,7 +43,7 @@ const Hero = () => {
                         <ButtonPrimary
                             label='Download CV'
                             icon='download'
-                            href={`${import.meta.env.VITE_PATH}/files/Resume_Tan Li Lun_Front_End.pdf`}
+                        // href
                         // target = '_self',
                         // classes
                         />
